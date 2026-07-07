@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
-    background-color: rgb(250, 255, 255);
+    background-color: rgb(10, 10, 10);
 }
 
 body h1 {
@@ -23,7 +24,7 @@ main {
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(20, 20, 20);
     grid-column: 100%;
     border-radius: 15px;
     box-shadow: 1px 1px 10px grey;
@@ -34,7 +35,7 @@ img {
     max-width: 360px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .card h2 {
@@ -47,12 +48,13 @@ img {
     text-indent: 20px;
     font-family: sans-serif;
     margin: 10px;
+    font-size: 20px;
 }
 
 footer {
     height: 2vh;
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     font-family: sans-serif;
     padding-block: 30px;
     text-align: center;
